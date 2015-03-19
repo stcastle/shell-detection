@@ -1,4 +1,4 @@
-''' Module: fits_proc 
+''' Module: fits-proc 
 
     Classes contained: FitsProc
 
@@ -13,7 +13,7 @@ from astropy.io import fits
 #import pyfits as fits  # May need to use this if astropy library unavailable.
 
 from fmfe import fmfe
-import edge_detect
+import edge-detect
 
 class FitsProc:
     ''' A class to load a FITS image file, manipulate the image,

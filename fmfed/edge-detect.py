@@ -1,5 +1,5 @@
 '''
-Module: edge_detect
+Module: edge-detect
 
 Implementation of Two-Stage Edge Detection from J. Wu et al. 2007.
 

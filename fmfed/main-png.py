@@ -14,9 +14,9 @@ import cv2
 import fileinput
 from matplotlib import pyplot as plt
 import sys
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 import fmfe
-import edge_detect
+import edge-detect
 
 def main():
     for file in fileinput.input():

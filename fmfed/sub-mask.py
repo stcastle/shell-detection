@@ -1,4 +1,4 @@
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 
 def main():
     filename = 'n3923_shell1na.fits'

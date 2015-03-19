@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 
 # Custom modules.
-from smooth_write_image import smooth
+from smooth-write-image import smooth
 
 def main():
     count = 1  # Count the number of images.

@@ -12,10 +12,10 @@ import numpy as np
 import cv2
 
 # Custom modules.
-from contours_write_image import contours
-from threshold_write_image import threshold
-from canny_write_image import canny
-from fmfe_main_write_image import run_fmfe
+from contours-write-image import contours
+from threshold-write-image import threshold
+from canny-write-image import canny
+from fmfe-main-write-image import run_fmfe
 
 def main():
     # Set threshold parameters.

@@ -1,5 +1,5 @@
 from filter import Filter
-from image_processor import FitsProc
+from fits-proc import FitsProc
 
 def main():
     '''

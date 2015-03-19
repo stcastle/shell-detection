@@ -12,7 +12,7 @@ Created: 20150226
 import numpy as np
 import cv2
 import os.path
-#import fits_proc
+#import fits-proc
 from astropy.io import fits
 
 def canny(name, orig_img, blockSize, c, t1, t2):

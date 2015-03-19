@@ -2,7 +2,7 @@
 import matplotlib.image
 import fileinput
 import fmfe
-import edge_detect
+import edge-detect
 
 def png_proc():
     for file in fileinput.input():

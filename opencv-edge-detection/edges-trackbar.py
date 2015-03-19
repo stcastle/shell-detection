@@ -1,5 +1,5 @@
 '''
-edges_trackbar.py
+edges-trackbar.py
 
 Experiment with OpenCV for FITS files.
 Create a trackbar for adjusting thresholds in Canny edge detection.
@@ -13,7 +13,7 @@ Created: 20150216
 import numpy as np
 import cv2
 import fileinput
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 
 def nothing(x):
     pass

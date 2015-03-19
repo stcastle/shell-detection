@@ -1,5 +1,5 @@
 '''
-threshold_write_image.py
+threshold-write-image.py
 
 Experiment with OpenCV for FITS files.
 

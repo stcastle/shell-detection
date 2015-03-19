@@ -14,7 +14,7 @@ import cv2
 import fileinput
 from matplotlib import pyplot as plt
 import sys
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 
 def main():
     for file in fileinput.input():

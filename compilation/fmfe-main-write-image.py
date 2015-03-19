@@ -10,7 +10,7 @@ Created: 20150226
 import numpy as np
 import cv2
 import fmfe
-#import edge_detect
+#import edge-detect
 import os.path
 
 def run_fmfe(name, orig_img, fuzzy_t):

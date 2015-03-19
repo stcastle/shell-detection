@@ -13,7 +13,7 @@ import numpy as np
 import cv2
 import fileinput
 from matplotlib import pyplot as plt
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 
 def main():
     for file in fileinput.input():

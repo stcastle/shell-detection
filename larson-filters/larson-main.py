@@ -1,8 +1,8 @@
 import fileinput
 import os.path
 import cv2
-from larson_filters_png import larsonSekanina
-from larson_filters_png import larsonSlaughter
+from larson-filters-png import larsonSekanina
+from larson-filters-png import larsonSlaughter
 
 def main():
     for file in fileinput.input():

@@ -1,6 +1,6 @@
 import numpy as np
 
-import edge_detect as ed
+import edge-detect as ed
 
 def main():
     data = np.zeros(shape=(5,5), dtype=float)

@@ -1,4 +1,4 @@
-from fits_proc import FitsProc
+from fits-proc import FitsProc
 import fileinput
 
 def main():

@@ -1,5 +1,5 @@
 '''
-process_all_fits.py
+process-all-fits.py
 
 Script to call many image processing functions on a set of fits file images.
 
@@ -14,10 +14,10 @@ import scipy
 # Custom modules.
 #from fits_proc import FitsProc
 from astropy.io import fits
-from contours_write_image_fits import contours
-from threshold_write_image_fits import threshold
-from canny_write_image_fits import canny
-from fmfe_main_write_image_fits import run_fmfe
+from contours-write-image_fits import contours
+from threshold-write-image-fits import threshold
+from canny-write-image-fits import canny
+from fmfe-main-write-image-fits import run_fmfe
 
 def main():
     # Set threshold parameters.
