@@ -10,17 +10,20 @@ This project is part of research conducted in a 2015 REU Program
 hosted by the Cerro-Tololo Inter-American Observatory and funded by the NSF.
 
 ---------- Doc format -----------
+
 This document describes scripts used detect shells in shell galaxies.
 The file name, path, usage, and any additional notes are given for every
 script.
 A description of the test data is also included.
 
 ---------- Python reqs ----------
-** Many of these scripts use the Python libraries numpy, scipy, OpenCV (cv2),
+
+Many of these scripts use the Python libraries numpy, scipy, OpenCV (cv2),
 astropy.io, and matplotlib, as well as the fileinput module.
 
 ---------- .fits files ----------
-** Unless scripts explicitly require fits-proc.py, they generally only support
+
+Unless scripts explicitly require fits-proc.py, they generally only support
 image formats, such as .png, recognized by the OpenCV library functions.
 It is not difficult to adapt a script to also work with .fits files.
 To do so, see an example file, such as
