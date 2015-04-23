@@ -46,9 +46,13 @@ Poisson noise was added to every test image using a custom python script
 described later in this document.
 
 The process for creating the test data was as follows:
+
 1. Draw desired shapes using GNU Image Manipulation Program (GIMP).
+
 2. Color shapes based on desired SNR.
+
 3. Blur via Gaussian convolution, built into GIMP.
+
 4. Add Poisson noise with the python script apply-poisson-noise.py
 
 
