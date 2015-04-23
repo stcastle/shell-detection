@@ -27,10 +27,13 @@ Unless scripts explicitly require fits-proc.py, they generally only support
 image formats, such as .png, recognized by the OpenCV library functions.
 It is not difficult to adapt a script to also work with .fits files.
 To do so, see an example file, such as
+
 /shell-detection/contour-fitting/contours.py
 or
+
 /shell-detection/fmfed/main.py
 or
+
 /shell-detection/convolutions/std-kernel/convolution-plot.py
 
 --------------------------------------------------------------------------------
